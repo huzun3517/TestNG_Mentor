@@ -1,0 +1,21 @@
+
+<suite name="Techno Study Suit">
+
+        <test name="Regresson Test">
+            <classes>
+              <class name="TahirBey.technostudy.ApplyNow"></class>
+              <class name="TahirBey.technostudy.ContactUs"></class>
+              <class name="TahirBey.technostudy.HomePage"></class>
+            </classes>
+        </test>
+
+        <test name="Smoke Test">
+            <classes>
+                <class name="TahirBey.technostudy.ApplyNow"></class>
+                <class name="TahirBey.technostudy.ContactUs"></class>
+                <class name="TahirBey.technostudy.HomePage"></class>
+            </classes>
+        </test>
+
+
+</suite>

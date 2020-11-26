@@ -1,0 +1,13 @@
+
+
+  @BeforeSuite
+    @BeforeTest  --
+      @BeforeClass  --
+        @BeforeMethod -- ne kadar test case varsa o kadar kullanilir
+          @Test  -- 1 tane Test Case
+          @AfterMethod ----- ne kadar test case varsa o kadar kullanilir
+        @AfterClass
+      @AfterTest
+    @AfterSuite
+
+

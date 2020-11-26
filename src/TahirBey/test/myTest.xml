@@ -1,0 +1,16 @@
+
+<suite name="Suitim" parallel="tests">
+    <test name="Test1">
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="TahirBey.test.Testim"></class>
+        </classes>
+    </test>
+
+    <test name="Test2">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="TahirBey.test.Testim"></class>
+        </classes>
+    </test>
+</suite>

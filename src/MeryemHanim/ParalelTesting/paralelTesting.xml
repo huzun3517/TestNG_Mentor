@@ -1,0 +1,9 @@
+
+<suite name="Smoke Test Suite" parallel = "classes">
+    <test name="Smoke Test">
+        <classes>
+            <class name="MeryemHanim.ParalelTesting.EMail"></class>
+            <class name="MeryemHanim.ParalelTesting.CoronaVirus"></class>
+        </classes>
+    </test>
+</suite>

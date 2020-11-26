@@ -1,0 +1,28 @@
+<suite name="My suite2">
+    <tests name="My Tests2">
+        <test name="Include Test">
+            <classes>
+                <class name="OmerBeyYoutube.Ders4.TestlerB"/>
+                <methods>
+             <!--       <include name="Test1"/>    Sadece Test1 ve Test2 yi çalıştırdık
+                    <include name="Test2"/>  -->
+
+                    <exclude name="Test5"/>  <!-- Test5 ve Test6 yi görme dedik -->
+                    <exclude name="Test6"/>
+
+                </methods>
+            </classes>
+        </test>
+        <test name="Group Test">
+            <groups>
+                <run>
+   <!--                 <include name="grup1"/> sadece grup1 deki testleri göster -->
+                    <exclude name="grup1"/> <!-- grup1 deki testleri gösterme -->
+                </run>
+            </groups>
+            <classes>
+                <class name="OmerBeyYoutube.Ders4.TestlerB"/>
+            </classes>
+        </test>
+    </tests>
+</suite>

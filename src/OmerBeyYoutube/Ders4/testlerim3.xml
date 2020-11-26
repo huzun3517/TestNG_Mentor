@@ -1,0 +1,29 @@
+
+<suite name="suitim">
+    <testest>
+        <test name="TestA">
+            <groups>
+                <run>
+                    <include name="grup1"></include>
+                </run>
+            </groups>
+
+            <classes>
+                <class name="OmerBeyYoutube.Ders4.TestlerB"></class>
+            </classes>
+        </test>
+
+        <test name="TestB">
+            <classes>
+                <class name="OmerBeyYoutube.Ders4.TestlerB"></class>
+                <methods>
+                    <exclude name="Test1"></exclude>
+                    <exclude name="Test2"></exclude>
+                    <exclude name="Test3"></exclude>
+                </methods>
+            </classes>
+        </test>
+
+    </testest>
+
+</suite>

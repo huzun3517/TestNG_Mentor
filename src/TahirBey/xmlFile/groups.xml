@@ -1,0 +1,23 @@
+
+<suite name="Grouping">
+    <test name="Gruplar1">
+        <groups>
+            <run>
+                <include name="Regression"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="TahirBey.xmlFile.Groups"></class>
+        </classes>
+    </test>
+    <test name="Gruplar2">
+        <groups>
+            <run>
+                <include name="Smoke"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="TahirBey.xmlFile.Groups"></class>
+        </classes>
+    </test>
+</suite>

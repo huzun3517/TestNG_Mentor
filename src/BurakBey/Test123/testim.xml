@@ -1,0 +1,16 @@
+
+<suite name="Benim TestNG Suitim">
+    <test name="TestNG_Giris">
+        <classes>
+            <class name="BurakBey.Test123.TestNG_Ex"></class>
+            <class name="BurakBey.Test123.MatematikTesti"></class>
+        </classes>
+    </test>
+
+    <test name="TestNG_SeleniumTest">
+        <classes>
+            <class name="BurakBey.SeleniumTestNG.Test1"></class>
+            <class name="BurakBey.SeleniumTestNG.Test2"></class>
+        </classes>
+    </test>
+</suite>

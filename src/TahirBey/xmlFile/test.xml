@@ -1,0 +1,18 @@
+
+<suite name="All Test Suite">
+    <test name="Test1">
+        <classes>
+            <class name="TahirBey.xmlFile.ClassA"></class>
+        </classes>
+    </test>
+    <test name="Test2">
+        <classes>
+            <class name="TahirBey.xmlFile.ClassB"></class>
+        </classes>
+    </test>
+    <test name="Test3">
+        <classes>
+            <class name="TahirBey.xmlFile.ClassC"></class>
+        </classes>
+    </test>
+</suite>

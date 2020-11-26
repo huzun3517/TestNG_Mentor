@@ -1,0 +1,17 @@
+
+<suite name="My Suite">
+    <tests name="My Tests">
+        <test name="Test1">
+            <classes>
+                <class name="OmerBeyYoutube.Ders3.Testler"/>
+                <class name="OmerBeyYoutube.Ders1._02_TestNG2"/>
+            </classes>
+        </test>
+        <test name="Test2">
+            <classes>
+                <class name="OmerBeyYoutube.Ders2.basit_Test"/>
+            </classes>
+        </test>
+
+    </tests>
+</suite>
